@@ -1,4 +1,2 @@
 
-document.getElementById("btn").addEventListener("click", function(click) {
-	console.log(this.innerHTML);
-});
+$(".btn").click(function() { console.log(this.innerHTML)});
